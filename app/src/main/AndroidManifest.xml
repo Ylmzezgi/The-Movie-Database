@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TMDI"
+        tools:targetApi="31" >
+        <activity
+            android:name=".intro.OnboardingPage"
+            android:exported="false" />
+        <activity
+            android:name=".user.userInformationPage"
+            android:exported="false" />
+        <activity
+            android:name=".user.ProfilPage"
+            android:exported="false" />
+        <activity
+            android:name=".user.SignUpPage"
+            android:exported="false" />
+        <activity
+            android:name=".view.LoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".intro.SplashScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.WatchPage"
+            android:exported="false" />
+        <activity
+            android:name=".view.FavoritiesPage"
+            android:exported="false" />
+        <activity
+            android:name=".view.MovieDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

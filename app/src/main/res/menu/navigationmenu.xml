@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ri_home_2_fill__2_"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_favorites"
+        android:icon="@drawable/top_imdb"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/nav_watchlist"
+        android:icon="@drawable/watched"
+        android:title="Watchlist" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ri_account_circle_line"
+        android:title="Profile" />
+</menu>
