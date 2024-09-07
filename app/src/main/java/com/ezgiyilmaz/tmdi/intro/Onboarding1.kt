@@ -12,7 +12,6 @@ import com.ezgiyilmaz.tmdi.R
 class Onboarding1 : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
