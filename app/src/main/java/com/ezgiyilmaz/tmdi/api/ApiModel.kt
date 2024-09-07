@@ -10,7 +10,6 @@ data class ApiModel(
     val release_date: String = "",
     val poster_path: String = ""
 )
-
 data class MovieDetailResponse(
     val id: Int,
     val original_title: String,
