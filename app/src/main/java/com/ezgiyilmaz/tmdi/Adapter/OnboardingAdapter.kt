@@ -10,7 +10,6 @@ class OnboardingAdapter(fragmentActivity: FragmentActivity):FragmentStateAdapter
     override fun getItemCount(): Int {
         return 3
     }
-
     override fun createFragment(position: Int): Fragment {
         return when (position) {
             0 -> Onboarding1()
